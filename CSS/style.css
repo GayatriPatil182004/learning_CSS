@@ -1,0 +1,23 @@
+h3{
+    background-color: rebeccapurple;
+    color: black;
+    font-size: 90px;
+    font-style: italic;
+}
+h4{
+    background-color: blue;
+    color: black;
+    font-size: 110px;
+    font-style: italic;
+}
+.heading_col1{
+    background-color: violet;
+    color: black;
+    font-size: 110px;
+
+}
+.heading_col2{
+    background-color: aqua;
+    color: black;
+    font-size :110px;;
+}
