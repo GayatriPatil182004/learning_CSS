@@ -68,7 +68,29 @@
 .f_family2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-f_weight{
+.f_weight{
     font-weight: 800;
     font-style: normal;
+}
+.b_properties{
+    border: 10px solid black;
+    /* border-top-left-radius: 60px; */
+    /* border-top-color: blue; */
+    /* border-color: bisque black bisque black; */
+    /* border-radius: 60px 100px 60px 100px; */
+}
+.b_properties1{
+    border: 6px dotted black;
+}
+.b_properties2{
+    border: 6px inset black;
+}
+.b_properties3{
+    border: 7px double black;
+}
+.b_properties4{
+    border: 7px solid black;
+}
+.b_properties5{
+    border: 7px outset red;
 }
