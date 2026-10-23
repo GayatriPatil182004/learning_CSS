@@ -59,3 +59,16 @@
     text-shadow: -6px 7px 6px black;
     font-size: 60px;
 }
+.f_family{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f_family1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f_family2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+f_weight{
+    font-weight: 800;
+    font-style: normal;
+}
