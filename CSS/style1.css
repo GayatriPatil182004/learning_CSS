@@ -94,3 +94,47 @@
 .b_properties5{
     border: 7px outset red;
 }
+.b_model{
+    border: 6px solid black;
+    margin: 50px 60px 50px 60px;
+    padding: 50px 40px 50px 40px;
+
+
+}
+.b_model1{
+    border: 7px inset blueviolet;
+    border-radius: 60px 80px 60px 80px;
+    margin: 40px ;
+    padding: 40px 50px 40px 50px;
+}
+.box{
+    font-size: 60px;
+    width: 200px;
+    height: 250px;
+    margin: 50px 60px 50px 60px;
+    padding: 50px;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+.box_static{
+    position: static;
+}
+.box_relative{
+    position: relative;
+    left: 250px;
+    top:60px;
+}
+.box_abs{
+    position: absolute;
+    left: 500px;
+    top:40px;
+}
+.box_sticky{
+    position: sticky;
+    top:30px;
+}
+.box_fixed{
+    position: fixed;
+    left: 200px;
+    top:60px;
+}
