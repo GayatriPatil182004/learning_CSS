@@ -161,3 +161,10 @@
     list-style: none;
 
 }
+.bg_img{
+    background-color:black ;
+    background-image: url("../images/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
