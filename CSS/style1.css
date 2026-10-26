@@ -168,4 +168,106 @@
     background-size: cover;
 
 }
+h1{
+            color: blueviolet;
+        }
+        h1:hover{
+            color:red;
+            font-size: 60px;
+            text-shadow: 6px 5px 6px black;
+        }
+        h2:hover{
+            font-weight: 300;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: blueviolet;
 
+        }
+        h3:hover{
+            color:aqua;
+            cursor: pointer;
+        }
+        input:focus{
+            border: 6px solid violet;
+            background-color: black;
+            color: white;
+        }
+        a:visited{
+            color: purple;
+        }
+        p::first-letter{
+            color: blueviolet;
+            font-size: 60px;
+        }
+        ::selection{
+            color: black;
+            background-color: aqua;
+        }
+        .s_box{
+            background-color: blueviolet;
+            border: 5px solid black;
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 30px;
+        transform: transfrom 5s ease-in;
+
+
+    }
+.body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+.s_box1:hover{
+    transform: translate(125px,125px);
+}
+.s_box2:hover{
+    transform: translateX(150px);
+}
+.s_box3:hover{
+    transform: translateY(150px);
+}
+.s_box4:hover{
+    transform: rotate(45deg);
+}
+.s_box5:hover{
+    transform: skew(30deg ,40deg);
+}
+.s_box6:hover{
+    transform: scale(1.5);
+}
+.s_box7:hover{
+    transform: rotate(360deg) scale(1.2) translateY(50px);
+}
+.container1{
+    position: relative;
+    margin: 100px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+.blue{
+    background-color: blue;
+    left: 40px;
+    z-index: 11;
+}
+.red{
+    background-color: red;
+    left: 80px;
+    z-index: 10;
+}
+.green{
+    background-color: green;
+    left: 120px;
+    z-index: 13;
+}
+ 
