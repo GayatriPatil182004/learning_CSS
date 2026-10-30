@@ -1,0 +1,30 @@
+.text-container{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    perspective: 10px; ;
+}
+.text-container >b{
+    height: 80px;
+    box-shadow: 0px 20px 10px gray;
+    background: linear-gradient(blue ,red);
+    background-color: plum;
+    background-clip: text;
+    color: transparent;
+    transform-origin: bottom;
+    animation: getUpDown 10s infinite;
+}
+.text-container >b:nth-child(1){animation-delay: 0s;}
+.text-container >b:nth-child(2){animation-delay: 0.25s;}
+.text-container >b:nth-child(3){animation-delay: 0.50s;}
+.text-container >b:nth-child(4){animation-delay: 0.75s;}
+.text-container >b:nth-child(5){animation-delay: 1s;}
+
+@keyframes getUpDown{
+    from{transform:rotateX(-95deg) ;}
+    10%,60%{transform: rotateX(0);}
+    50%,to{transform: rotateX(-95deg);}
+}
